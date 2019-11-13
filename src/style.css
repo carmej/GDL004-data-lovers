@@ -1,0 +1,27 @@
+ #tiposDePokemon1
+ {
+
+        display: inline-flex;
+         flex-flow: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        
+   
+
+
+  }
+
+  #tiposDePokemon2
+  {
+
+        display: inline-flex;
+         flex-flow: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    
+
+
+
+}
