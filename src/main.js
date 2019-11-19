@@ -1,8 +1,2 @@
-
-import  { POKEMON }from './data/pokemon/pokemon.js'
-
-import { example } from './data.js';
-
-console.log(example);
-
- * console.log(POKEMON);
+import POKEMON from './data/pokemon/pokemon.js';
+    console.log(POKEMON);
