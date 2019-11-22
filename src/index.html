@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="css/fontello.css"/>
   </head>
   <body>
-    <div id="root"></div>
     <script type="module" src="main.js"></script>
         <header>
           <div class="contenedor">
@@ -18,10 +17,9 @@
             <input type="checkbox" id="menu-bar">
             <label class="icon-menu" for="menu-bar"></label>    
             <nav class="menu">
-              <a href="">INICIO</a>
-              <a href="">VER TODOS</a>
-              <a href="">ORDEN ASCENDENTE</a>
-              <a href="">ORDEN DESCENDENTE</a>
+              <a href="#" id="inicio">INICIO</a>
+              <a href="#" id="mostrarPokemones">VER TODOS</a>
+              <a href="#" id="explicacion">¿QUE ES POKEMON GO?</a>
             </nav>     
           </div>
         </header>
@@ -31,7 +29,9 @@
           </section>
           <section id="BIENVENIDOS">
             <h2>BIENVENIDO A NUESTRA PAGINA</h2>
-            <p>Acá encontrarás a todos los Pokémon de la región de Kanto y Johto</p>
+            <p>Aquí encontrarás a todos los Pokémon de la región de Kanto y Johto
+              organizados de diferentes formas para tu beneficio,<br \> además 
+              información con la que pronto serás un experto.</p>
           </section>
           <section id="blog">
             <h3>¿Cómo quieres ver listados a los pokemon?</h3>
@@ -44,6 +44,26 @@
                 <img src="img/fondoPokemon2.jpg">
                 <h4>Por tipo</h4>
               </article>
+              <div id="listaTipos">
+                  <select id="listaTipos">
+                    <option value="00">Por tipo ...</option>
+                    <option value="01">Agua</option>
+                    <option value="02">Bicho</option>
+                    <option value="03">Dragon</option>
+                    <option value="04">Electrico</option>
+                    <option value="04">Fantasma</option>
+                    <option value="05">Fuego</option>
+                    <option value="06">Hielo</option>
+                    <option value="07">Lucha</option>
+                    <option value="08">Normal</option>
+                    <option value="09">Hierba</option>
+                    <option value="10">Psiquico</option>
+                    <option value="11">Roca</option>
+                    <option value="12">Tierra</option>
+                    <option value="13">Veneno</option>
+                    <option value="14">Volador</option>
+                  </select>
+                  <div id="todosLosPokemones"></div>
               <article>
                 <img src="img/fondoPokemon4.jpg">
                 <h4>Busqueda personalizada</h4>
@@ -55,7 +75,7 @@
             <div class="contenedor">
               <div class="info-jugador">
                 <img src="img/capturar.jpg">
-                <a href="#">Cómo capturar un Pokémon</a>
+                <h4>Cómo capturar un Pokémon</h4>
               </div>
               <div class="info-jugador">
                 <img src="img/trucos.jpg">
