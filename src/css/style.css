@@ -54,6 +54,8 @@ footer .contenedor{
 	flex-wrap: wrap;
 	justify-content: center;
 	padding-bottom: 25px; 
+	bottom: 0;
+	position: relative;;
 }
 
 .copy {
