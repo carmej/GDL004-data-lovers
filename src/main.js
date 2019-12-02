@@ -132,6 +132,7 @@ botonboton1.addEventListener('click', () => {
           <div class= "card">
           <div class= name> ${personaje.name} </div>
           <div class= id> Tipo: ${personaje.type} </div>
+          <div class= id> Debilidad: <br> ${personaje.weaknesses} </div>
           <img src= "${personaje.img}"> </img>
           </div>
           </div>`
