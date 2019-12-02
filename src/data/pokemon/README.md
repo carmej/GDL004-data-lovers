@@ -14,53 +14,49 @@ entrenadores de Pokémon" y pueden:
 - **Hacer equipo** con otros entrenadores para atrapar poderosos Pokémon
   durante las incursiones.
 
-Para entender mejor qué necesidades complementarias a la app tienen los usuarios,
-hicimos una rápida investigación (research) y estos son algunos de los hallazgos.
+# Pokémon
 
-- Los Pokémon tienen características únicas que determinan las decisiones que
-  toma el usuario (tipo, debilidad, peso, multiplicador, etc.)
-- Un maestro Pokémon antes de salir a casar los Pokémon tienen que:
-  saber el top 10 de frecuencia de aparición de los Pokémon.
-- Los Pokémon tienen distintos tipos y debilidades de combate. Estas
-  características son importantes cuando un maestro Pokémon elige al Pokémon
-  más adecuado para su batalla. Hay veces que tiene que elegir a los que
-  tienen menos cantidad de debilidades y saber de que tipo son. Por ello, es
-  importante para un maestro Pokémon poder ordenarlos por estas 2
-  características.
-- Los Pokémon evolucionan y es importante para un
-  maestro Pokémon saber cuántas y cuáles son las evoluciones que tienen antes y después.
-- Los Pokémon se alimentan de caramelos y un maestro Pokémon necesita saber
-  cuántos caramelos necesita un Pokémon para evolucionar.
+Pokémon GO es una experiencia de juego internacional que cuenta con más de mil
+millones de descargas y ha sido nombrada "el mejor juego para móviles" por
+Game Developers Choice Awards y "la mejor aplicación del año" por TechCrunch
+(tomado de Google Play). Los usuarios del juego se convierten en "Maestros/
+entrenadores de Pokémon" y pueden:
 
-Cifrado César - Lovers' Secrets
+- **Descubrir el mundo Pokémon:** explorar y descubrir nuevos Pokémon allá
+  donde vayan.
+- **Atrapar** distintos Pokémon para completar su Pokédex.
+- **Pelear** contra Pokémon de otros entrenadores y conquistar un gimnasio.
+- **Competir** en épicos combates contra otros entrenadores.
+- **Hacer equipo** con otros entrenadores para atrapar poderosos Pokémon
+  durante las incursiones.
+
+# POKELOVERS
 
 Resumen:
 
-Este proyecto está basado en el código César con la capacidad de "cifrar" y "descifrar", está diseñado para parejas que deseen compartir mensajes "secretos".
+Esta aplicación está dirigida a jugadores principiantes de "Pokemon Go" de nacionalidad mexicana, que requieran aprender más sobre el tema, el rango de edad es entre 20 y 30 años.
 
-Imagen final:
+Está diseñada para que los jugadores puedan visualizar los Pokémon de Kanto y Johto, ordenados por ID, por tipo, alfabéticamente en orden ascendente y descendente, así como, una búsqueda por nombre o letra que el usuario podrá introducir por medio de texto, el cual arrojará su tipo y su debilidad, y a su vez, podrán ver todas las criaturas con características más específicas como lo son: peso y estatura, a través del botón "ver todos".
 
-
+La interfaz está compuesta por 6 botones que muestran de manera específica el orden de los listados antes mencionados, además de 3 botones que cuentan con un link cada uno, que los llevará a información de interés.
 
 
 Investigación UX:
 
-i. Explicar quiénes son los usuarios y los objetivos en relación con el producto:
+Encuestas
 
-Los usuarios de este producto son jóvenes familiarizados con la tecnología, que busquen diversión o recreación en temas de comunicación cifrada.
+Se realizaron 2 encuestas: 
 
-ii. Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios:
+La primera se le realizó a una persona que estaba empezando a familiarizarse con el juego. La retroalimentación consistió en la aprobación total por parte del usuario, pues aseguró la aplicación era intuitiva, útil y sencilla de utilizar.
 
-Las personas tendrán la posibilidad de cifrar o descifrar cualquier texto, sin importar si se encuentra en mayúsculas, minúsculas o con caracteres especiales. Para que esto se logre, tendrán que ingresar el número de desplazamientos y el texto deseados.
+La segunda encuesta se le aplicó a un jugador asiduo, el cual refirió que el botón de "Cómo atrapar un Pokémon" estaba un poco fuera de contexto, ya que consideraba no era necesaria esa información para el juego. Como respuesta a esto, se cambió el botón y la información que contenía por "Pokémon Go Mundial 2019: Ganadores".
 
-iii. Luego colocarás la foto de tu primer prototipo en papel:
+Prototipo de baja fidelidad:
 
+![](./src/img/prototipoBajaFidelidad.jpg)
 
+Prototipo de alta fidelidad:
 
+![](./src/img/prototipoAltaFidelidad.png)
 
-
-iv. Agregar un resumen del feedback recibido indicando las mejoras a realizar:
-
-El feedback que recibí de mis compañeras fue que podía ser más clara con las instrucciones que le estaba dando al usuario.
-
-v. Imagen del prototipo final:
+Imagen final:
