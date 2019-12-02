@@ -69,11 +69,11 @@ Que el usuario pueda conocer a todos los Pokémon por nombre por orden alfabéti
 
 Prototipo de baja fidelidad:
 
-![](./src/img/prototipoBajaFidelidad.jpg)
+![](./src/img/prototipoBajaFidelidadPoke.jpg)
 
 Prototipo de alta fidelidad:
 
-![](./src/img/prototipoAltaFidelidad.png)
+![](./src/img/prototipoAltaFidelidadPoke.png)
 
 Imagen final:
 
