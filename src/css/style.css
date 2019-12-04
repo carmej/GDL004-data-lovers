@@ -54,6 +54,8 @@ footer .contenedor{
 	flex-wrap: wrap;
 	justify-content: center;
 	padding-bottom: 25px; 
+	bottom: 0;
+	position: relative;;
 }
 
 .copy {
@@ -85,3 +87,54 @@ footer .contenedor{
 		width: 1000px;
 	}
 }
+
+div.contenedor1 {
+top: 30px;
+display: flex;
+position: relative;
+padding: auto;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+background-color: transparent;
+max-width: 100%;
+
+}
+/*bottom: 40px*/
+
+div.card {
+width: 240px;
+height: 240px;
+text-align: center;
+justify-content: center;
+flex-wrap: wrap;
+background-color: rgba(255, 255, 255, 0.3);
+box-shadow: 5px 5px 5px #d2d2d2;
+border-radius: 30%;
+}
+
+
+.botonBarra {
+background-color:rgb(5,16,148,0.9);;
+width: 100px;
+height: 50px;
+font-size: 14px;
+color: rgb(255, 230, 0);
+}
+
+.botonBarra:hover{
+    color:rgb(5,16,148,0.9);
+    background-color: rgb(255, 187, 0);
+  }
+
+.boton {
+	background-color:rgba(254, 254, 255, 0.9);;
+	width: 50px;
+	height: 25px;
+	font-size: 14px;
+	color: rgba(17, 25, 119, 0.9);
+	}
+.boton:hover{
+		color:rgb(5,16,148,0.9);
+		background-color: rgb(255, 187, 0);
+	  }

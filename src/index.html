@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -13,19 +14,48 @@
         <header>
           <div class="contenedor">
             <img class="pikachu" src="img/pikachu.png">
+
+            <!--Título general -->
             <h1>POKELOVERS</h1> 
-            <input type="checkbox" id="menu-bar">
-            <label class="icon-menu" for="menu-bar"></label>    
-            <nav class="menu">
-              <a href="#" id="inicio">INICIO</a>
-              <a href="#" id="mostrarPokemones">VER TODOS</a>
-              <a href="#" id="explicacion">¿QUE ES POKEMON GO?</a>
+      
+              <!--Menú barra de lado derecho -->
+              <input type="checkbox" id="menu-bar">
+              <label class="icon-menu" for="menu-bar"></label>    
+              <nav class="menu">
+              <button href="" class= botonBarra>INICIO</button>
+              <button id= "verTodos" class= botonBarra>VER TODOS</button>
+              <button id= "AZ" class= botonBarra>ORDENAR A-Z</button>
+              <button id= "ZA" class= botonBarra>ORDENAR Z-A</button>
             </nav>     
           </div>
         </header>
         <main>
+
+          <!--///////////FUNCIONES//////////////-->
+
+           <!-- Sort Z-A-->
+           <div id= "ZAordenar" class="contenedor1"></div>
+
+          <!-- Sort A-Z-->
+          <div id= "AZordenar" class="contenedor1"></div>
+
+          <!-- Map Ver Todos-->
+          <div id= "verTodosId" class="contenedor1"></div>
+
+          <!-- Map ID-->
+          <div id= "nombreImagen" class="contenedor1"></div>
+
+          <!-- Map Tipo-->
+          <div id= "nombreTipo" class="contenedor1"></div>
+
+          <!--IndexOf Personalizada-->
+          <div id= "busquePerso" class="contenedor1"></div>
+          <h1 id= "busquePerso1"></h1>
+
+<!--//////////EMPIEZA DIV DE LA PRIMERA HISTORIA////////////-->
+          <div id= "primeraHistoria">
           <section id="banner">
-            <img src="img/fondoPokemon.png">
+            <img src="./img/fondoPokemon.PNG">
           </section>
           <section id="BIENVENIDOS">
             <h2>BIENVENIDO A NUESTRA PAGINA</h2>
@@ -34,42 +64,70 @@
               información con la que pronto serás un experto.</p>
           </section>
           <section id="blog">
-            <h3>¿Cómo quieres ver listados a los pokemon?</h3>
+
+            <!--Menú de los primeros 3 botones -->
+            <h3>¿Cómo quieres ver listados a los Pokémon?</h3>
             <div class="contenedor">
+
+              <!--Primer botón -->
               <article>
-                <img src="img/fondoPokemon3.jpg">
-                <h4>Por ID</h4>
+                  <button id= "porId" class="button"><img src="img/fondoPokemon3.jpg" class= "button-images"></img>
+                  </button>
+                <h4>Por ID </h4>
+                
               </article>
+
+              <!--Segundo botón -->
               <article>
-                  <button class="img" id="tipoPokemon"><img src="img/fondoPokemon2.jpg" alt="x" /></button>
+                  <button id= "porTipo" class="button"><img src="img/fondoPokemon2.jpg" class= "button-images"></img>
+                  </button>
                 <h4>Por tipo</h4>
+                
+              </article>
+              <!--Tercer botón -->
               <article>
-                <img src="img/fondoPokemon4.jpg">
-                <h4>Busqueda personalizada</h4>
+                  <button id= "busquedaPersonalizada" class="button"><img src="img/fondoPokemon4.jpg" class= "button-images"></img>
+                  </button>
+                  <h4>Búsqueda por letra o nombre</h4>
+                  <button id= "btn btn-info" class= "boton">Buscar</button>
+          
+                <input type="text" id="formulario" class= "form-control my-2">
+                
+                
               </article>
             </div>
           </section>
+
+          <!--Menú de los segundos 3 botones -->
           <section id="info">
             <h3>Conoce más sobre Pokémon GO </h3>
             <div class="contenedor">
+
+              <!--Primer botón -->
               <div class="info-jugador">
-                <img src="img/capturar.jpg">
-                <h4>Cómo capturar un Pokémon</h4>
+                <a href= 'https://pokemaster.es/todos-los-ganadores-del-mundial-de-pokemon-2019-no-118024/' target=_blank><button id= "comoAtrapar" class="button-radius"><img src="img/capturar.jpg"></img></button></a>
+                <h4>Pokémon Go Mundial 2019:<br>Ganadores</h4>
               </div>
+
+              <!--Segundo botón -->
               <div class="info-jugador">
-                <img src="img/trucos.jpg">
+                  <a href= 'https://www.cnet.com/es/imagenes/17-consejos-para-pokemon-go/' target=_blank><button id= "mejoresTrucos" class="button-radius"><img src="img/trucos.jpg"></img></button></a>
                 <h4>Los mejores trucos</h4>
               </div>
+              
+              <!--Tercer botón -->
               <div class="info-jugador">
-                <img src="img/losmejores.png">
-                <h4>Top 10 los mejores Pokémon en general</h4>
+                  <a href= 'https://aminoapps.com/c/pokemon-es/page/blog/top-10-mejores-pokemon-de-kanto-sin-megas-ni-legendarios/RXPH_wuvBGMgE12V8llx0DEnzQr1QN' target=_blank><button id= "top10" class="button-radius"><img src="img/losmejores.png"></img></button></a>
+                <h4>Top 10 los mejores Pokémon</h4>
               </div>
             </div>
+          </div>
           </section>
         </main>
-        <footer>
+
+        <footer >
           <div class="contenedor">
-            <p class="copy">POKELOVERS &copy; 2019 CREATED BY ALE AVALOS & CARMEN MEJIA</p>
+            <p class="copy">POKELOVERS &copy; 2019 Created by Ale Avalos & Carmen Mejía</p>
             <div class="sociales">
               <a class="icon-facebook" href="https://www.facebook.com/PokemonGO/"></a>
               <a class="icon-twitter" href="https://twitter.com/pokemongoapp"></a>
@@ -79,3 +137,4 @@
         </footer>
   </body>
 </html>
+

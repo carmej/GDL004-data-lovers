@@ -1,7 +1,8 @@
-// importamos la función `example`
-import { example } from "../src/data";
+import data from "..src/data";
+import POKEMON from './data/pokemon/pokemon.js';
+const dataPokemon=POKEMON;
 
-describe('example', () => {
+describe('data', () => {
 
   it('debería ser una función', () => {
     expect(typeof example).toBe('function');
