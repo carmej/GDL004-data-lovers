@@ -4,14 +4,97 @@
   <head>
     <meta charset="UTF-8">
     <title>LEAGUE OF LEGENDS</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://file.myfontastic.com/KjeiVQgiiiG7DrHvzizCaU/icons.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://file.myfontastic.com/KjeiVQgiiiG7DrHvzizCaU/icons.css" rel="stylesheet">
   </head>
   <body>
     <script type="module" src="main.js"></script>
-    <p class="icon-facebook">siguenos</p>
+   <header class="main-header">
+     <div class="container container--flex">
+        <div class="logo-container">
+          <h1 class="logo">LEAGUE OF LEGENDS</h1>
+        </div>
+     </div>
+   </header>
+  <nav class="main-nav">
+    <div class="container container--flex">
+      <span class="icon-menu" id="btnmenu"></span>
+        <ul class="menu" id="menu">
+          <li class="menu__item"><a href="/" class="menu__link menu__link--select">Inicio</a></li>
+          <li class="menu__item"><a href="campeones.html" class="menu__link">Campeones</a></li>
+          <li class="menu__item"><a href="roles.html" class="menu__link">Roles</a></li>
+          <li class="menu__item"><a href="nivelataque.html" class="menu__link">Nivel de ataque</a></li>
+          <li class="menu__item"><a href="buscar.html" class="menu__link">Buscar</a></li>
+          <li class="menu__item"><a href="maspoderosos.html" class="menu__link">Los más poderosos</a></li>
+        </ul>
+        <div class="social-icon">
+          <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+          <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+          <a href="" class="social-icon__link"><span class="icon-youtube"></span></a>
+        </div>
+    </div>
+  </nav>
+    <section class="banner">
+      <img src="img/banner.jpg" alt="" class="banner__img">
+      <div class="banner__content"></div>
+    </section>
+    <main class="main">
+      <section class="group group--color">
+        <div class="container">
+          <h2 class="main__title">Bienvenido a nuestra página</h2>
+          <p class="main__txt">Acá encontraras toda la información necesaria para ser el mejor en LoL</p>
+        </div>
+      </section>
+
+      <section class="group main__about__description">
+        <div class="container container--flex">
+          <div class="column column--50">
+            <img src="img/jungla.jpg" alt="">
+          </div>
+          <div class="column column--50">
+            <h3 class="column__titile">aprende a elegir al mejor campeon segun tus necesidades</h3>
+            <a href="" class="btn btn--contact">contact</a>
+          </div>
+        </div>
+      </section>
+      <section class="group special">
+        <h2 class="special__title">Especiales</h2>
+        <div class="conteiner conteiner__flex">
+          <div class="column column--50-25">
+            <img src="img/campeones.jpg" alt="" class="special__img">
+            <div class="special__title">Campeones</div>
+          </div>
+          <div class="column column--50-25">
+            <img src="img/roles.jpg" alt="" class="special__img">
+            <div class="special__title">Roles</div>
+          </div>
+          <div class="column column--50-25">
+            <img src="img/nivel de ataque.jpg" alt="" class="special__img">
+            <div class="special__title">Nivel de Ataque</div>
+          </div>
+          <div class="column column--50-25">
+            <img src="img/poderosos.jpg" alt="" class="special__img">
+            <div class="special__title">Los más Poderosos</div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer">
+        <div class="container container--flex">
+          <div class="column column--50">
+            <h2 class="column__title">¿Por qué visitarnos?</h2>
+            <p class="column__txt">Esta página esta diseñada especialmente para ti que necesitas</p>
+          </div>
+          <div class="column column--50">
+            <h2 class="column__title"> DataLovers2<a href="" class="icon-copyright"></a></h2>
+            <p class="column__txt">Carmen Mejía</p>
+            <p class="column__txt">Laboratoria</p>
+            <p class="column__txt">League of Leyends</p>
+          </div>
+        </div>
+    </footer>
   </body>
 </html>
 

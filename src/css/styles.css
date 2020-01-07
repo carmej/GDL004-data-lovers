@@ -1,3 +1,42 @@
-p {
-    font-size: 25 px;
+@import url('https://fonts.googleapis.com/css?family=Buenard|Montserrat:400,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+/*--------------Estilos base------------------*/
+img{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+.container {
+    width: 100px;
+    margin: auto;
+}
+.container--flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.column {
+    width: 100%;
+}
+/*--------------Estilos header------------------*/
+.main-header {
+    width: 100%;
+}
+.logo {
+    font-size: 1.8em;
+    color: darkgoldenrod;
+    padding: 10px;
+    font-family: 'Buenard', serif;
+    
 }
